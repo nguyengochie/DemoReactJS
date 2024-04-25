@@ -1,0 +1,30 @@
+.form-input-container {
+    margin-top: 50px !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+    padding: 50px;
+    max-width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.form-input {
+    text-align: start;
+}
+
+.form-input p {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.form-input input {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid;
+    border-color: #e5e5e5;
+}
